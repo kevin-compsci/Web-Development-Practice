@@ -23,3 +23,24 @@ function divide(num1, num2) {
 function square(num1) {
 	return num1*num1;
 }
+
+//cubes the given value
+function cubed(num1) {
+	return num1*num1*num1;
+}
+
+//returns bigger value
+function greaterThan(num1, num2) {
+	if(num1 > num2) {
+		return num1;
+	}
+	return num2;
+}
+
+//returns smaller value
+function lessThan(num1, num2) {
+	if(num1 > num2) {
+		return num2;
+	}
+	return num1;
+}
