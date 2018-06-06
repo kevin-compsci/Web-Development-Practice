@@ -35,9 +35,16 @@ else {
   myHeading.textContent = 'Mozilla is cool, ' + storedName;
 }
 
-//onclick button
-myButton.onclick = function() {
-	setUserName();
-}
+// //onclick button
+// Button.onclick = function() {
+// 	setUserName();
+// }
 
+//edit playername
+var para = document.querySelector('p2');
+para.addEventListener('click', updateName);
+function updateName() {
+  var name = prompt('Enter a new name');
+  para.textContent = 'Player 1: ' + name;
+}
 //NOTE: Chrome-users make sure 3rd party cookies are enabled for localStorage
