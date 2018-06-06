@@ -19,6 +19,11 @@ function multiply(num1, num2) {
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
+// //onclick button
+myButton.onclick = function() {
+  setUserName();
+}
+
 //function set user's name
 function setUserName() {
 	var myName = prompt('Please enter your name!');
@@ -34,11 +39,6 @@ else {
   var storedName = localStorage.getItem('name');
   myHeading.textContent = 'Mozilla is cool, ' + storedName;
 }
-
-// //onclick button
-// Button.onclick = function() {
-// 	setUserName();
-// }
 
 //edit playername
 var para = document.querySelector('p2');
