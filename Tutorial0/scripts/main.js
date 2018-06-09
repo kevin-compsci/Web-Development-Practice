@@ -28,7 +28,7 @@ myButton.onclick = function() {
 function setUserName() {
 	var myName = prompt('Please enter your name!');
 	localStorage.setItem('name', myName);
-	myHeading.textContent = 'Mozilla is cool, ' + myName;
+	myHeading.textContent = 'TUtorials are cool, ' + myName;
 }
 
 //check if name exists?
@@ -37,7 +37,7 @@ if(!localStorage.getItem('name')) {
 } 
 else {
   var storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Mozilla is cool, ' + storedName;
+  myHeading.textContent = 'Tutorials are cool, ' + storedName;
 }
 
 //edit playername
