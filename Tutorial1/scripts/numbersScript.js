@@ -50,6 +50,7 @@ function checkGuess() {
 
 guessSubmit.addEventListener('click', checkGuess);
 
+//gameover logic
 function setGameOver() {
   guessField.disabled = true;
   guessSubmit.disabled = true;
@@ -57,5 +58,9 @@ function setGameOver() {
   resetButton.textContent = 'Start new game';
   document.body.appendChild(resetButton);
   resetButton.addEventListener('click', resetGame);
+}
 
+//reset game logic
+function resetGame() {
+  
 }
