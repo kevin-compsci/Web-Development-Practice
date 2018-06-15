@@ -33,8 +33,17 @@ function checkGuess() {
     setGameOver();
   } //try again
   else {
-    lastResult.textcontent = 'Wrong!';
+    lastResult.textContent = 'Wrong!';
     lastResult.style.backgroundColor = 'red';
-  }
 
+    if(userGuess < randomNumber) {
+      lowOrHi.textContent = 'Too low!';
+    }
+    else if(userGuess > randomNumber) {
+      lowOrHi.textContent = 'Too high!';
+    }
+  }
+  guessCount++;
+  guessField.value = '';
+  guessField.focus();
 }
