@@ -22,6 +22,7 @@ var age = 18;
 var helloWorld = 'Hello World';
 
 //boolean
-var false = false;
+var myFalse = false;
+var myTrue = true;
 
 //Arrays
