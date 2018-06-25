@@ -14,3 +14,14 @@ if(t1 === false) {
 else {
 	alert('t1 is ' + t1);
 }
+
+//number
+var age = 18;
+
+//Strings
+var helloWorld = 'Hello World';
+
+//boolean
+var false = false;
+
+//Arrays
