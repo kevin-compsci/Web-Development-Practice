@@ -26,3 +26,9 @@ var myFalse = false;
 var myTrue = true;
 
 //Arrays
+var myStrArray = ['Bob', 'Henry', 'Lucy'];
+var myNumArray = [10,15,40];
+
+if(myStrArray[0] === 'Bob') {
+	alert('Array at 0 has ' + myStrArray[0]);
+}
