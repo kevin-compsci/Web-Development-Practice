@@ -4,3 +4,13 @@ button.onclick = function() {
 	var name = prompt('What is your name?');
 	alert('Hello ' + name + '!');
 }
+
+var t1 = 'Bob';
+t1 = false;
+
+if(t1 === false) {
+	alert('t1 is ' + t1);
+}
+else {
+	alert('t1 is ' + t1);
+}
