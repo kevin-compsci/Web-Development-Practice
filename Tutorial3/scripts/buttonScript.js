@@ -32,3 +32,9 @@ var myNumArray = [10,15,40];
 if(myStrArray[0] === 'Bob') {
 	alert('Array at 0 has ' + myStrArray[0]);
 }
+
+//Objects
+var dog = {name : 'Spot',
+			breed : 'Golden Retriever'};
+
+alert(dog.name);
