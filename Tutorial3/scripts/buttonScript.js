@@ -33,7 +33,7 @@ if(myStrArray[0] === 'Bob') {
 	alert('Array at 0 has ' + myStrArray[0]);
 }
 
-//Objects
+//Objects (records)
 var dog = {name : 'Spot',
 			breed : 'Golden Retriever'};
 
@@ -43,4 +43,6 @@ alert(dog.name);
 var myNum = '500';
 alert(typeof myNum);
 myNum = 500;
+alert(typeof myNum);
+myNum = false;
 alert(typeof myNum);
