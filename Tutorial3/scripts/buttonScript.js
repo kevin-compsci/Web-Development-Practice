@@ -5,6 +5,7 @@ button.onclick = function() {
 	alert('Hello ' + name + '!');
 }
 
+//condition
 var t1 = 'Bob';
 t1 = false;
 
@@ -14,6 +15,15 @@ if(t1 === false) {
 else {
 	alert('t1 is ' + t1);
 }
+
+t1 = 'Bob'
+if(t1 === false) {
+	alert('t1 is ' + t1);
+}
+else {
+	alert('t1 is ' + t1);
+}
+
 
 //number
 var age = 18;
