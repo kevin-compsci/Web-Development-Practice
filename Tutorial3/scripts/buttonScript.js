@@ -38,3 +38,9 @@ var dog = {name : 'Spot',
 			breed : 'Golden Retriever'};
 
 alert(dog.name);
+
+//dynamic typing
+var myNum = '500';
+alert(typeof myNum);
+myNum = 500;
+alert(typeof myNum);
