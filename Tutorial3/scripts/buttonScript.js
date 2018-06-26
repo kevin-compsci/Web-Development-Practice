@@ -1,8 +1,14 @@
+//Button definition
 var button = document.querySelector('button');
 
 button.onclick = function() {
 	var name = prompt('What is your name?');
-	alert('Hello ' + name + '!');
+	if(name !== 'Bob') {
+		alert('Hello ' + name + '!');
+	}
+	else {
+		alert('We don\'t like people named Bob!');
+	}
 }
 
 //condition
