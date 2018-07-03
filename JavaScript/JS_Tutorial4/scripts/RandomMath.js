@@ -64,3 +64,21 @@ alert(10 < 6);
 alert(10 > 10);
 alert(3 <= 2);
 alert(5 >= 4);
+
+
+//button start stop
+var btn = document.querySelector('button');
+var txt = document.querySelector('p');
+
+btn.addEventListener('click', updateBtn);
+
+function updateBtn() {
+	if(btn.textContent === 'Start') {
+		btn.textContent = 'End'; //button text
+		txt.textContent = 'The machine has started!'; //result text
+	}
+	else {
+		btn.textContent = 'Start'; //button text
+		txt.textContent = 'The machine has stopped.'; // result text
+	}
+}
