@@ -47,3 +47,20 @@ myInc++;
 
 var myDec = 11;
 myDec--;
+
+
+//assignments
+var temp = 1;
+temp += 1;
+temp -= 1;
+temp *= 1;
+temp /= 1;
+
+
+//comparisons
+alert(5 === (2+4));
+alert(5 !== (2+3));
+alert(10 < 6);
+alert(10 > 10);
+alert(3 <= 2);
+alert(5 >= 4);
