@@ -7,3 +7,6 @@ str;
 //var badStr2 = 'Test;
 //var badStr3 = Test';
 
+var maybeBadStr = str; //works b/c str is already defined!
+maybeBadStr;
+
