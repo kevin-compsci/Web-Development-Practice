@@ -48,7 +48,6 @@ btn.onclick = function() {
 	alert("Hello " + name);
 }
 
-
 //numbers vs strings
 var date = '19' + '67';
 typeof date;
