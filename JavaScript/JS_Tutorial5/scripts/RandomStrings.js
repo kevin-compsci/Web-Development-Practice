@@ -10,3 +10,18 @@ str;
 var maybeBadStr = str; //works b/c str is already defined!
 maybeBadStr;
 
+
+//quotes single vs double
+var sgl = 'Single Quotes.';
+var dbl = "Double QUotes.";
+sgl;
+dbl;
+
+//var badQuotes = 'What on earth?!";
+var sglDbl = 'Would you eat a "fish supper"?';
+var dblSgl = "I'm feeling blue.";
+sglDbl
+dblSgl;
+
+
+//escape special chars
