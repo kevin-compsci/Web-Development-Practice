@@ -25,3 +25,36 @@ dblSgl;
 
 
 //escape special chars
+var bigmouth = 'I\'ve got no right';
+bigmouth;
+
+
+//concatentation
+var part1 = "Hello";
+var part2 = "World";
+var joined = part1 + part2;
+joined;
+
+var multi = part1 + part1 + part1 + part1;
+multi;
+
+var respond = part1 + " there!";
+respond;
+
+var btn = document.querySelector('button');
+
+btn.onclick = function() {
+	var name = prompt('What is your name?');
+	alert("Hello " + name);
+}
+
+
+//numbers vs strings
+var date = '19' + '67';
+typeof date;
+
+var myStr = '123';
+var myNum = Number(myStr); //convert arg into number
+var newStr = myNum.toString(); //convert to String
+typeof myNum;
+typeof newStr;
