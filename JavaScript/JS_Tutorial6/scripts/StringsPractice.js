@@ -21,6 +21,10 @@ alert(browser.slice(0,2)); //returns "ch" where 0 inclusive to n-1th index
 alert(browser.slice(2)); //returns "rome"
 
 //CHANGE CASE (UPPER vs LOWER)
-var someData = "I aM NoT duMB!";
+var someData = "I aM NoT duMB! Give me a JOB!";
 alert(someData.toLowerCase());
 alert(someData.toUpperCase());
+
+//UPDATE SUBSTRING
+var newData = browser.replace("rome", "ris");
+alert(newData);
