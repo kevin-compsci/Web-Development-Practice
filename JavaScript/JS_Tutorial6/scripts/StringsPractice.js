@@ -1,4 +1,5 @@
 //Test in DOM, String practice manipulations by Mozilla JS Tutorials
+//NOTE: Alert is used to display in window...fix it as necessary for log
 
 //STRING LENGTH
 var browser = "chrome";
@@ -27,4 +28,4 @@ alert(someData.toUpperCase());
 
 //UPDATE SUBSTRING
 var newData = browser.replace("rome", "ris");
-alert(newData);
+alert(newData); //should now say "Chris"
