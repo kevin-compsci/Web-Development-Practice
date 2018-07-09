@@ -20,4 +20,7 @@ if(browser.indexOf("rom") !== -1) {
 alert(browser.slice(0,2)); //returns "ch" where 0 inclusive to n-1th index
 alert(browser.slice(2)); //returns "rome"
 
-//CHANGE CASE
+//CHANGE CASE (UPPER vs LOWER)
+var someData = "I aM NoT duMB!";
+alert(someData.toLowerCase());
+alert(someData.toUpperCase());
