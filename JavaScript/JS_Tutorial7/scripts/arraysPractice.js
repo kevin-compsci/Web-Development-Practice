@@ -55,5 +55,5 @@ alert(myArray);
 
 var removedItem = myArray.shift(); //pop off the front
 alert(myArray);
-removedItem;
+alert(removedItem);
 
