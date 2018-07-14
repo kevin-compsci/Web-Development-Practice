@@ -34,3 +34,20 @@ alert(myArray); //split by ","
 alert(myArray.length);
 alert(myArray[0]); //returns "Manchester"
 alert(myArray[myArray.length-1]) //returns last element
+
+
+var dogNames = ["Rocket","Flash","Bella","Slugger"];
+alert(dogNames.toString());
+
+
+//INSERTION & DELETION
+myArray.push("California"); //appended to the end
+alert(myArray);
+myArray.push("Texas", "Oregon"); //appended to the end
+alert(myArray);
+alert(myArray.length);
+
+myArray.pop(); //remove last item
+alert(myArray);
+
+//
