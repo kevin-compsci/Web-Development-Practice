@@ -50,4 +50,10 @@ alert(myArray.length);
 myArray.pop(); //remove last item
 alert(myArray);
 
-//
+myArray.unshift("Edinburgh"); //push to the front
+alert(myArray);
+
+var removedItem = myArray.shift(); //pop off the front
+alert(myArray);
+removedItem;
+
