@@ -25,3 +25,12 @@ for(int i : sequence) {
 
 
 //CONVERTING B/W STRINGS AND ARRAYS
+var myData = "Manchester,London,Liverpool";
+
+var myArray = myData.split(",");
+alert(myArray); //split by ","
+
+
+alert(myArray.length);
+alert(myArray[0]); //returns "Manchester"
+alert(myArray[myArray.length-1]) //returns last element
