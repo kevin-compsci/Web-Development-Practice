@@ -16,3 +16,12 @@ alert(shopping); // "bread" is now "Buns" in the array
 //random[2][2]; etc.
 
 //FINDING LENGTH OF ARRAY
+alert(shopping.length); //returns 5
+
+var sequence = [0,1,2,3,4,5,6,7];
+for(int i : sequence) {
+	alert(sequence[i]);
+}
+
+
+//CONVERTING B/W STRINGS AND ARRAYS
