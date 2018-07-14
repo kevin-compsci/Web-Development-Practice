@@ -19,7 +19,7 @@ alert(shopping); // "bread" is now "Buns" in the array
 alert(shopping.length); //returns 5
 
 var sequence = [0,1,2,3,4,5,6,7];
-for(int i : sequence) {
+for(i = 0; i < sequence.length; i++) {
 	alert(sequence[i]);
 }
 
