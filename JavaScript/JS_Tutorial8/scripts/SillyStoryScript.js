@@ -20,9 +20,9 @@ randomize.addEventListener('click', result);
 
 function result() {
   var newStory = storyText;
-  var xItem = randomValueFromArray(InsertX);
-  var yItem = randomValueFromArray(InsertY);
-  var zItem = randomValueFromArray(InsertZ);
+  var xItem = randomValueFromArray(insertX);
+  var yItem = randomValueFromArray(insertY);
+  var zItem = randomValueFromArray(insertZ);
 
   newStory = updateText(xItem, yItem, zItem, newStory);
 
@@ -37,7 +37,7 @@ function result() {
     var temperature =  Math.round(94);
   }
 
-  story.textContent = ;
+  story.textContent = newStory;
   story.style.visibility = 'visible';
 
 
