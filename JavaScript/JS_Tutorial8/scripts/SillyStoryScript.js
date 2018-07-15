@@ -14,7 +14,7 @@ var insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
 
 var insertY = ["the soup kitchen", "Disneyland", "the White House"];
 
-var insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away";
+var insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
 
 randomize.addEventListener('click', result);
 
