@@ -30,6 +30,8 @@ function result() {
   var yItem = randomValueFromArray(InsertY);
   var zItem = randomValueFromArray(InsertZ);
 
+  newStory = updateText(xItem, yItem, zItem, newStory);
+
   newStory = xItem + " " + yItem + " " + zItem;
 
   if(customName.value != '') {
@@ -45,4 +47,11 @@ function result() {
   story.style.visibility = 'visible';
 
 
+}
+
+function updateText(xItem, yItem, zItem, newStory) {
+	newStory = newStory.replace(":insertx:", xItem);
+	newStory = newStory.replace(":inserty:", yItem);
+	newStory = newStory.replace(":insertz:", zItem);
+	return newStory;
 }
