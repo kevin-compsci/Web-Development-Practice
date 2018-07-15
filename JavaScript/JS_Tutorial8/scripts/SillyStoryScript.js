@@ -24,7 +24,7 @@ function result() {
   var yItem = randomValueFromArray(insertY);
   var zItem = randomValueFromArray(insertZ);
 
-  newStory = updateText(xItem, yItem, zItem, newStory);
+  newStory = updateText(xItem, yItem, zItem, storyText);
 
   newStory = xItem + " " + yItem + " " + zItem;
 
