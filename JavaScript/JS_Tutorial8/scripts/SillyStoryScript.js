@@ -25,6 +25,12 @@ turned into a slug and crawled away";
 randomize.addEventListener('click', result);
 
 function result() {
+  var newStory = storyText;
+  var xItem = randomValueFromArray(InsertX);
+  var yItem = randomValueFromArray(InsertY);
+  var zItem = randomValueFromArray(InsertZ);
+
+  newStory = xItem + " " + yItem + " " + zItem;
 
   if(customName.value != '') {
     var name = customName.value;
@@ -37,4 +43,6 @@ function result() {
 
   story.textContent = ;
   story.style.visibility = 'visible';
+
+
 }
