@@ -9,3 +9,8 @@ h1 {
 p {
   color: red;
 }
+
+span {
+  border: 1px solid black;
+  background-color: lime;
+}
