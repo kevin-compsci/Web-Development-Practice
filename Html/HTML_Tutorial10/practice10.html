@@ -34,3 +34,12 @@
   <source src="viper.ogg" type="audio/ogg">
   <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a> instead.</p>
 </audio>
+
+
+<!-- vtt helps transcribe audio to text; use <track> with kind attribute to specify subtitle,captions, etc.; srclang = tells what language the text is in -->
+<video controls>
+    <source src="example.mp4" type="video/mp4">
+    <source src="example.webm" type="video/webm">
+    <track kind="subtitles" src="subtitles_en.vtt" srclang="en">
+</video>
+
