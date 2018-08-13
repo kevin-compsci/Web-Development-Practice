@@ -1,1 +1,5 @@
 /* practice 9 styling */
+
+p { /* places bg img on every paragraph */
+  background-image: url("images/dinosaur.jpg");
+}
